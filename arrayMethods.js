@@ -16,3 +16,26 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+var nameArray = [];
+console.log(nameArray.push('Samantha', 'Juntilla'));
+console.log(genericNumberArray.push(6, 7, 8, 9, 10));
+var popResult = colors.pop();
+console.log(popResult);
+console.log(scrambledWords.reverse());
+console.log(phoneNumber.reverse());
+var nextOrder = orderQueue.shift();
+console.log(nextOrder);
+console.log(mixedWords.sort());
+console.log(mixedNums.sort());
+var notFruit = fruitCollection.splice(1, 3);
+console.log(notFruit);
+var notGems = gemBox.splice(5, 2);
+console.log(gemBox.splice(6, 4));
+console.log(upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8));
+var notBrown = brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
+console.log(orderedValues.unshift(1, 2, 3));
+var orderedValuesNewLength = orderedValues.length;
+var randomThingsArray = genericNumberArray.concat(colors);
+var customOrders = [{ takeOut: 'Socks' }, { takeOut: 'Bombs'}];
+var updatedOrders = orderQueue.concat(customOrders);
+var sentence = scrambledWords.join();
